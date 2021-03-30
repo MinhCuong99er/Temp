@@ -1,0 +1,53 @@
+form {
+  margin-bottom: 20px;
+}
+h1{
+  margin: 30px 0px;
+}
+input {
+  border: none;
+  background: #ebebeb;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  padding: 10px 15px;
+  margin: 0;
+  margin-right: 10px;
+  border-radius: 5px;
+  width: 250px;
+}
+button {
+  border: none;
+  padding: 7px 20px;
+  font-size: 18px;
+  color: #fff;
+  background: lightgreen;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  margin: 0;
+  border-radius: 5px;
+}
+.display {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  padding: 0px 10px;
+  display: inline-flex;
+}
+.display .student-list {
+  display: inline-flex;
+  flex: 1;
+  background-color: lightgrey;
+}
+.display .student-list span {
+  flex: 2;
+  width: 250px;
+  margin-right: 10px;
+   
+}
+.display .student-list span:nth-child(3) {
+  width: 260px;
+}
+.small-btn {
+  max-height: 30px;
+  padding: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}

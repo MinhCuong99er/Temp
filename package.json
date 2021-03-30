@@ -12,6 +12,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "build-css": "node-sass --source-map true --include-path ./src --include-path ./node_modules src/static/scss -o src/static/css",
+    "watch-css": "npm run build-css && node-sass --source-map true --include-path ./src --include-path ./node_modules src/static/scss -o src/static/css --watch --recursive",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
